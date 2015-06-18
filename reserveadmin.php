@@ -7,8 +7,8 @@ if(current_user_can('reserve_admin'))
 {
 ?>
 
-<link rel="stylesheet" href="wp-content/themes/DivisionGamingLanParty/style.css">
-<link rel="stylesheet" href="wp-content/themes/DivisionGamingLanParty/css/reserve.css">
+<link rel="stylesheet" href="wp-content/themes/theme/style.css">
+<link rel="stylesheet" href="wp-content/themes/theme/css/reserve.css">
 
 <script src="jquery-1.10.2.js"></script>
 <script src="jquery-ui.js"></script>
