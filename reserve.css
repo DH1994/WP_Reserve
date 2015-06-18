@@ -1,0 +1,176 @@
+table
+{
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	table-layout: fixed;
+}
+
+table tr td
+{
+	padding: 0px;
+	border: 1px solid #000000;
+}
+
+#main
+{
+	min-height: 0;
+}
+
+.clickable
+{
+	color: #000000;
+	background-color: #09EF37;
+}
+
+.clickable:hover
+{
+	color: #FFFFFF;
+	background-color: #09EF37; 
+	cursor: hand;
+}
+
+.nopermission
+{
+	color: #000000;
+	background-color: #CCCCCC;
+}
+
+.nopermission:hover
+{
+	cursor: hand;
+}
+
+.reserved
+{
+	color: #000000;
+	background-color: #EA2B1F;
+}
+
+.reserved:hover
+{
+	color: #000000;
+	background-color: #EA2B1F; 
+	cursor: hand;
+}
+
+.namediv
+{
+	color: #FFFFFF;
+	background: #000000; 
+	position: fixed; 
+	bottom: 10;
+	right: 10;
+	border: 3px solid #FF7F27;
+	padding: 5px;
+}
+
+.searchdiv
+{
+	position: fixed; 
+	top: 5;
+	right: 5;
+}
+
+.settings
+{
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute; 
+	top: 5;
+	right: 5;
+	width: 285px;
+	padding: 10px;
+	border: 3px solid #FF7F27;
+}
+
+.settings table
+{
+	border: none;
+}
+
+.settings table tr td
+{
+	padding: 1px;
+	border: none;
+}
+
+.settings table tr td:first-child
+{
+	width: 150px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.blink_me
+{
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+	background: rgba(0, 0, 0, 0.1);
+	color: #000000;
+}
+
+@-moz-keyframes blinker
+{  
+	0%
+	{
+		opacity: 1.0;
+	}
+	
+	50%
+	{
+		opacity: 0.0;
+	}
+	
+	100%
+	{
+		opacity: 1.0;
+	}
+}
+
+@-webkit-keyframes blinker
+{  
+	0%
+	{
+		opacity: 1.0;
+	}
+	
+	50%
+	{
+		opacity: 0.0;
+	}
+	
+	100%
+	{
+		opacity: 1.0;
+	}
+}
+
+@keyframes blinker
+{  
+	0%
+	{
+		opacity: 1.0;
+	}
+	
+	50%
+	{
+		opacity: 0.0;
+	}
+	
+	100%
+	{
+		opacity: 1.0;
+	}
+}
