@@ -1,6 +1,6 @@
 # WP_RESERVE 
 ****
-*This is a reserve system for Wordpress. You can create tables where users can reserve places.*
+*This is a reserve system for Wordpress. You can create tables where users can reserve places. In the admin page you can drag and drop tables where you want. In wordpress you can set featured image as background.*
 
 # Installation
 
@@ -39,3 +39,6 @@ Create a table in your wordpress DB with the name tables and the following field
  
 ##### Create roles
 Create roles in the members plugin and edit reserveadmin/reserve where if(current_user_can('reserve_admin')). Change reserve admin to your role.
+
+##### Event
+Set event id in page settings in wordpress. You have to add a custom field with name id. 
